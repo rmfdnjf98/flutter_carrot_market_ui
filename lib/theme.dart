@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-TextTheme textTHeme() {
+TextTheme textTheme() {
   return TextTheme(
     displayLarge: GoogleFonts.openSans(fontSize: 18.0, color: Colors.black),
     displayMedium: GoogleFonts.openSans(
@@ -46,7 +46,7 @@ BottomNavigationBarThemeData bottomNavigationBarThemeData() {
 ThemeData theme() {
   return ThemeData(
     scaffoldBackgroundColor: Colors.white,
-    textTheme: TextTheme(),
+    textTheme: textTheme(),
     appBarTheme: appBarTheme(),
     bottomNavigationBarTheme: bottomNavigationBarThemeData(),
     primarySwatch: Colors.orange,

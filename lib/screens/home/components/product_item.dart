@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_carrot_market_ui/models/product.dart';
+import 'package:flutter_carrot_market_ui/screens/home/components/product_detail.dart'; // ← import 추가
 
 class ProductItem extends StatelessWidget {
   final Product product;
@@ -24,7 +25,7 @@ class ProductItem extends StatelessWidget {
           const SizedBox(
             width: 16.0,
           ),
-          //ProductDetail(product: product),
+          ProductDetail(product: product),
         ],
       ),
     );

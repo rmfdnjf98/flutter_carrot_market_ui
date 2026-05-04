@@ -4,10 +4,10 @@ import 'package:flutter_carrot_market_ui/models/product.dart';
 import 'package:flutter_carrot_market_ui/theme.dart';
 import 'package:intl/intl.dart';
 
-class ProductDetial extends StatelessWidget {
+class ProductDetail extends StatelessWidget {
   final Product product;
 
-  const ProductDetial({required this.product});
+  const ProductDetail({required this.product});
 
   @override
   Widget build(BuildContext context) {
